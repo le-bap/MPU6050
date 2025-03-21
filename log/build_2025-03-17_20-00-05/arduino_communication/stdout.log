@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating arduino_communication.egg-info
+writing arduino_communication.egg-info/PKG-INFO
+writing dependency_links to arduino_communication.egg-info/dependency_links.txt
+writing entry points to arduino_communication.egg-info/entry_points.txt
+writing requirements to arduino_communication.egg-info/requires.txt
+writing top-level names to arduino_communication.egg-info/top_level.txt
+writing manifest file 'arduino_communication.egg-info/SOURCES.txt'
+reading manifest file 'arduino_communication.egg-info/SOURCES.txt'
+writing manifest file 'arduino_communication.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robo/ArduinoAndROS2Communication/install/arduino_communication/lib/python3.10/site-packages/arduino-communication.egg-link (link to .)
+Installing serial_node_arduino script to /home/robo/ArduinoAndROS2Communication/install/arduino_communication/lib/arduino_communication
+
+Installed /home/robo/ArduinoAndROS2Communication/build/arduino_communication
+running symlink_data
+creating /home/robo/ArduinoAndROS2Communication/install/arduino_communication/share/ament_index
+creating /home/robo/ArduinoAndROS2Communication/install/arduino_communication/share/ament_index/resource_index
+creating /home/robo/ArduinoAndROS2Communication/install/arduino_communication/share/ament_index/resource_index/packages
+symbolically linking /home/robo/ArduinoAndROS2Communication/build/arduino_communication/resource/arduino_communication -> /home/robo/ArduinoAndROS2Communication/install/arduino_communication/share/ament_index/resource_index/packages
+symbolically linking /home/robo/ArduinoAndROS2Communication/build/arduino_communication/package.xml -> /home/robo/ArduinoAndROS2Communication/install/arduino_communication/share/arduino_communication

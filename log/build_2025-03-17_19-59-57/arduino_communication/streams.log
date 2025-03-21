@@ -1,0 +1,21 @@
+[0.445s] Invoking command in '/home/robo/ArduinoAndROS2Communication/build/arduino_communication': PYTHONPATH=/home/robo/ArduinoAndROS2Communication/build/arduino_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/ArduinoAndROS2Communication/install/arduino_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo/ArduinoAndROS2Communication/build/arduino_communication/build --no-deps symlink_data --force
+[0.624s] running develop
+[0.625s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.625s]   warnings.warn(
+[0.734s] running egg_info
+[0.734s] writing arduino_communication.egg-info/PKG-INFO
+[0.734s] writing dependency_links to arduino_communication.egg-info/dependency_links.txt
+[0.735s] writing entry points to arduino_communication.egg-info/entry_points.txt
+[0.735s] writing requirements to arduino_communication.egg-info/requires.txt
+[0.735s] writing top-level names to arduino_communication.egg-info/top_level.txt
+[0.736s] reading manifest file 'arduino_communication.egg-info/SOURCES.txt'
+[0.737s] writing manifest file 'arduino_communication.egg-info/SOURCES.txt'
+[0.738s] running build_ext
+[0.738s] Creating /home/robo/ArduinoAndROS2Communication/install/arduino_communication/lib/python3.10/site-packages/arduino-communication.egg-link (link to .)
+[0.739s] Installing serial_node_arduino script to /home/robo/ArduinoAndROS2Communication/install/arduino_communication/lib/arduino_communication
+[0.739s] 
+[0.739s] Installed /home/robo/ArduinoAndROS2Communication/build/arduino_communication
+[0.739s] running symlink_data
+[0.739s] symbolically linking /home/robo/ArduinoAndROS2Communication/build/arduino_communication/resource/arduino_communication -> /home/robo/ArduinoAndROS2Communication/install/arduino_communication/share/ament_index/resource_index/packages
+[0.739s] symbolically linking /home/robo/ArduinoAndROS2Communication/build/arduino_communication/package.xml -> /home/robo/ArduinoAndROS2Communication/install/arduino_communication/share/arduino_communication
+[0.765s] Invoked command in '/home/robo/ArduinoAndROS2Communication/build/arduino_communication' returned '0': PYTHONPATH=/home/robo/ArduinoAndROS2Communication/build/arduino_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/ArduinoAndROS2Communication/install/arduino_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo/ArduinoAndROS2Communication/build/arduino_communication/build --no-deps symlink_data --force

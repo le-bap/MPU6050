@@ -1,0 +1,3 @@
+[console_scripts]
+serial_node_arduino = arduino_communication.serial_node_arduino:main
+

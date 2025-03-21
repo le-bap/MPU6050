@@ -1,0 +1,1 @@
+/home/robo/ArduinoAndROS2Communication/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/robot_state__traits.hpp

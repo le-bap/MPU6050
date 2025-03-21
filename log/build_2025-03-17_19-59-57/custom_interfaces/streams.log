@@ -1,0 +1,31 @@
+[0.183s] Invoking command in '/home/robo/ArduinoAndROS2Communication/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robo/ArduinoAndROS2Communication/install/arduino_communication:/opt/ros/humble /usr/bin/cmake /home/robo/ArduinoAndROS2Communication/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ArduinoAndROS2Communication/install/custom_interfaces
+[0.209s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.303s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.315s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.321s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.552s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.870s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.887s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.887s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.887s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.896s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.909s] -- Added test 'lint_cmake' to check CMake code style
+[0.910s] -- Added test 'xmllint' to check XML markup files
+[0.912s] -- Configuring done
+[0.943s] -- Generating done
+[0.945s] -- Build files have been written to: /home/robo/ArduinoAndROS2Communication/build/custom_interfaces
+[0.950s] Invoked command in '/home/robo/ArduinoAndROS2Communication/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robo/ArduinoAndROS2Communication/install/arduino_communication:/opt/ros/humble /usr/bin/cmake /home/robo/ArduinoAndROS2Communication/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ArduinoAndROS2Communication/install/custom_interfaces
+[0.952s] Invoking command in '/home/robo/ArduinoAndROS2Communication/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robo/ArduinoAndROS2Communication/install/arduino_communication:/opt/ros/humble /usr/bin/cmake --build /home/robo/ArduinoAndROS2Communication/build/custom_interfaces -- -j8 -l8
+[0.982s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[0.989s] failed to create symbolic link '/home/robo/ArduinoAndROS2Communication/build/custom_interfaces/ament_cmake_python/custom_interfaces/custom_interfaces' because existing path cannot be removed: Is a directory
+[0.989s] [  3%] Built target custom_interfaces__cpp
+[0.989s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_custom_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_custom_interfaces] Error 1
+[0.990s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_custom_interfaces.dir/all] Error 2
+[0.990s] gmake[1]: *** Waiting for unfinished jobs....
+[0.992s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[0.993s] gmake: *** [Makefile:146: all] Error 2
+[0.994s] Invoked command in '/home/robo/ArduinoAndROS2Communication/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robo/ArduinoAndROS2Communication/install/arduino_communication:/opt/ros/humble /usr/bin/cmake --build /home/robo/ArduinoAndROS2Communication/build/custom_interfaces -- -j8 -l8
